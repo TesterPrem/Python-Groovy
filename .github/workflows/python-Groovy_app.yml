@@ -23,7 +23,7 @@ jobs:
           pytest
   Docker-Container:
     runs-on: ubuntu-latest
-    container: node:19.8.1
+    container: node:20.2.0-alpine
     steps:
       - name: Test the node version
         run: |
